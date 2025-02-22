@@ -1,2 +1,3 @@
-# Electrum-Project
-Electrum Project em SASS
+# Electrum Project
+
+Website made while learning SASS
