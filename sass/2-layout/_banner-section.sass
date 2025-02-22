@@ -1,0 +1,11 @@
+@use '../1-base/variables'
+@use '../1-base/base_mixin'
+@use 'layout_mixins'
+
+.banners
+    @include layout_mixins.center-content
+    padding: 3rem 0
+
+    @include base_mixin.mobile
+        flex-direction: column
+        align-items: center
